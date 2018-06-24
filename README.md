@@ -4,7 +4,7 @@ A simple script to rotate your Twitter profile through a set of icons.
 
 ## Setup
 
-1. `pip install -r requirements.txt`
+1. `pipenv install`
 2. Create your own Twitter App at https://apps.twitter.com.
 3. Generate an access token in addition to the app keys.
 4. Set up your keys and a list of icons in the configuration file (example below).
@@ -12,7 +12,7 @@ A simple script to rotate your Twitter profile through a set of icons.
 
 ## Usage
 
-    python rotate.py config.json
+    pipenv run python rotate.py config.json
 
 ## Configuration File
 
