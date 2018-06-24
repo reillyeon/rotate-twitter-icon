@@ -5,7 +5,7 @@ import sys
 import tweepy
 
 if len(sys.argv) != 2:
-  print "Usage: %s config.json" % sys.argv[0]
+  print("Usage: %s config.json" % sys.argv[0])
 
 config = None
 config_file = sys.argv[1]
